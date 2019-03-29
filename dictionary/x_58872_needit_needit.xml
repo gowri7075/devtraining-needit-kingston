@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Needit" max_length="40" name="x_58872_needit_needit" sizeclass="3" type="collection">
+        <element label="new field" max_length="40" name="new_field" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Req typr" max_length="40" name="req_typr" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Facilities" sequence="0" value="Facilities"/>
+                <element inactive_on_update="false" label="Human Resources" sequence="1" value="Human Resources"/>
+                <element inactive_on_update="false" label="Legal" sequence="2" value="Legal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="other req" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="what needed" max_length="40" name="what_needed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Legal1" sequence="0" value="Legal1"/>
+                <element inactive_on_update="false" label="Legal2" sequence="1" value="Legal2"/>
+                <element inactive_on_update="false" label="facilities1" sequence="2" value="facilities1"/>
+                <element inactive_on_update="false" label="facilities2" sequence="3" value="facilities2"/>
+                <element inactive_on_update="false" label="Human Resources1" sequence="4" value="Human Resources1"/>
+                <element inactive_on_update="false" label="Human Resources2" sequence="5" value="Human Resources2"/>
+                <element inactive_on_update="false" label="other" sequence="6" value="other"/>
+            </choice>
+        </element>
+    </element>
+</database>
